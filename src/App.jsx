@@ -3,6 +3,7 @@ import FlipList from "./components/FlipList/FlipList";
 import MiniDashboard from "./ui/MiniDashboard/MiniDashboard";
 
 function App() {
+  console.log("Hellow")
   return (
     <div className={styles["app"]}>
       <header className={styles["app__header"]}>
@@ -15,6 +16,8 @@ function App() {
 
         <FlipList />
       </main>
+
+      <div className={styles["app__fab"]}>+</div>
     </div>
   );
 }

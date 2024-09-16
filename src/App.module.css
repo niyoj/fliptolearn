@@ -34,3 +34,18 @@
   font-size: 3rem;
   font-weight: 600;
 }
+
+.app__fab {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 5rem;
+  background-color: var(--primary-color);
+  color: var(--neutral-color);
+}
