@@ -1,0 +1,45 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.progress_bar {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  /* border: 1px solid #c2c2c2; */
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  gap: 1px;
+  background-color: var(--neutral-color);
+}
+
+.progress_bar__item {
+  height: 100%;
+}
+
+.legends {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.legends__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.legends__item__color {
+  width: 8px;
+  height: 8px;
+}
+
+.legends__item__title {
+  font-size: 0.75rem;
+}
+
