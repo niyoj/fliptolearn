@@ -22,7 +22,6 @@ const getBarLength = (data) => {
 
 export default function ProgressBar({ data }) {
   const [items, values] = getBarLength(data);
-  console.log(data);
 
   return (
     <div className={styles["progress"]}>
@@ -41,7 +40,7 @@ export default function ProgressBar({ data }) {
 
       <div className={styles["legends"]}>
         {items.map((item) => (
-          <div className={styles["legends__item"]}>
+          <div className={styles["legends__item"]} key={item}>
             <div
               className={styles["legends__item__color"]}
               style={{ backgroundColor: data[item]["color"] ?? "#000" }}

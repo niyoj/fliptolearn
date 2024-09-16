@@ -1,0 +1,25 @@
+.mini_dashboard {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.mini_dashboard header h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--bg-color);
+  text-align: left;
+}
+
+.mini_dashboard footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}  
+
+.mini_dashboard footer p {
+  font-size: 1rem;
+  color: var(--neutral-color);
+}
