@@ -6,6 +6,10 @@
   border: 2px solid var(--primary-color);
 }
 
+.flip_list_item--top {
+  background-color: var(--secondary-color);
+}
+
 .flip_list_item__title {
   font-size: 2rem;
   font-weight: 500;
