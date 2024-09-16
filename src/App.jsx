@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import FlipList from "./components/FlipList/FlipList";
 import MiniDashboard from "./ui/MiniDashboard/MiniDashboard";
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
 
       <main className={styles["app__main"]}>
         <h1>Flip Lists</h1>
+
+        <FlipList />
       </main>
     </div>
   );
