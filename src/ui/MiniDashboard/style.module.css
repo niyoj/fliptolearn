@@ -2,8 +2,8 @@
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 1rem;
+  gap: 2.5rem;
+  padding: 1.25rem;
 }
 
 .mini_dashboard header h2 {
@@ -20,6 +20,6 @@
 }  
 
 .mini_dashboard footer p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--neutral-color);
 }
